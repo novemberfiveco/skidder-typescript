@@ -4,7 +4,7 @@
   "description": "November Five's logging library. Skidder will drag your logs where they need to go.",
   "repository": {
     "type": "git",
-    "url": "git://github.com/novemberfiveco/skidder-react.git"
+    "url": "https://github.com/novemberfiveco/skidder-react.git"
   },
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
