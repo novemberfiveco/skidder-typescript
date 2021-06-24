@@ -1,6 +1,6 @@
 {
   "name": "@novemberfiveco/skidder-react",
-  "version": "1.0.0-beta1",
+  "version": "1.0.0-beta2",
   "description": "November Five's logging library. Skidder will drag your logs where they need to go.",
   "repository": {
     "type": "git",
