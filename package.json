@@ -1,0 +1,13 @@
+{
+  "name": "skidder-react",
+  "version": "1.0.0-beta1",
+  "description": "November Five's logging library. Skidder will drag your logs where they need to go.",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/novemberfiveco/skidder-react.git"
+  },
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "author": "Jens Reynders <jens.reynders@novemberfive.co>",
+  "license": "MIT"
+}
