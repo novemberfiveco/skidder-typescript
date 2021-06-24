@@ -15,7 +15,7 @@
     "start": "rollup -c -w",
     "build": "rollup -c",
     "build:types": "tsc --emitDeclarationOnly",
-    "publish": "yarn build && yarn build:types && npm publish"
+    "publish": "yarn build && yarn build:types && npm publish --registry https://npm.pkg.github.com"
   },
   "devDependencies": {
     "@babel/core": "^7.14.6",
