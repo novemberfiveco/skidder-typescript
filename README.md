@@ -16,8 +16,7 @@ yarn add skidder-react
 ## Usage
 
 ```
-import skidder, { logInfo, SkidderLogLevel } from 'skidder-react';
-import SkidderServiceConsole from 'skidder-react/SkidderServiceConsole';
+import skidder, { logInfo, SkidderLogLevel, SkidderServiceConsole } from ''@novemberfiveco/skidder-react'';
 
 const consoleService = new SkidderServiceConsole(
     'console_1',
