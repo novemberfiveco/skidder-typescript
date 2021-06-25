@@ -10,14 +10,13 @@ Skidder will drag your logs to where they need to go. A small, uniform and exten
 ## Quick Start
 
 ```
-yarn add skidder-react
+yarn add @novemberfiveco/skidder-react
 ```
 
 ## Usage
 
 ```
-import skidder, { logInfo, SkidderLogLevel } from 'skidder-react';
-import SkidderServiceConsole from 'skidder-react/SkidderServiceConsole';
+import skidder, { logInfo, SkidderLogLevel, SkidderServiceConsole } from ''@novemberfiveco/skidder-react'';
 
 const consoleService = new SkidderServiceConsole(
     'console_1',
