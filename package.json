@@ -1,6 +1,6 @@
 {
   "name": "@novemberfiveco/skidder-react",
-  "version": "1.0.0-beta3",
+  "version": "1.0.0-beta4",
   "description": "November Five's logging library. Skidder will drag your logs where they need to go.",
   "repository": {
     "type": "git",
@@ -16,7 +16,7 @@
     "build": "rollup -c",
     "build:types": "tsc --emitDeclarationOnly",
     "commit": "git add . && npx git-cz --disable-emoji",
-    "publish": "yarn build && yarn build:types && npm publish --registry https://npm.pkg.github.com"
+    "publish": "yarn build && yarn build:types && npm publish"
   },
   "devDependencies": {
     "@babel/core": "^7.14.6",
@@ -28,5 +28,8 @@
     "rollup": "^2.52.2",
     "rollup-plugin-terser": "^7.0.2",
     "typescript": "^4.3.4"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
