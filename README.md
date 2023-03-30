@@ -10,7 +10,7 @@ Skidder will drag your logs to where they need to go. A small, uniform and exten
 ## Quick Start
 
 ```
-yarn add @novemberfiveco/skidder-react
+npm install @novemberfiveco/skidder-react
 ```
 
 ## Usage
