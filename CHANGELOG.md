@@ -1,5 +1,12 @@
 
 
+### [1.0.1](https://github.com/novemberfiveco/skidder-react/compare/1.0.0...1.0.1) (2023-03-30)
+
+
+### Bug Fixes
+
+* update package.json version ([4d21e3e](https://github.com/novemberfiveco/skidder-react/commit/4d21e3e34f35337ad290d799a7c13c3f3fa6105b))
+
 ## [1.0.0](https://github.com/novemberfiveco/skidder-react/compare/1.0.0-beta3...1.0.0) (2023-03-30)
 
 
