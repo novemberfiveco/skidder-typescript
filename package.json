@@ -1,6 +1,6 @@
 {
   "name": "@novemberfiveco/skidder-typescript",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "November Five's logging library. Skidder will drag your logs where they need to go.",
   "repository": {
     "type": "git",

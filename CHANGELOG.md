@@ -1,5 +1,7 @@
 
 
+### [1.0.4](https://github.com/novemberfiveco/skidder-typescript/compare/1.0.3...1.0.4) (2023-11-07)
+
 ### [1.0.3](https://github.com/novemberfiveco/skidder-typescript/compare/1.0.2...1.0.3) (2023-11-07)
 
 ### [1.0.2](https://github.com/novemberfiveco/skidder-react/compare/1.0.1...1.0.2) (2023-11-07)
