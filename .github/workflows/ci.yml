@@ -1,4 +1,4 @@
-name: Release @novemberfiveco/skidder-react
+name: Release @novemberfiveco/skidder-typescript
 concurrency:
   group: publish-${{ github.github.base_ref }}
   cancel-in-progress: true
@@ -21,7 +21,7 @@ on:
 
 jobs:
   publish:
-    if: github.repository == 'novemberfiveco/skidder-react' && github.ref == 'refs/heads/master'
+    if: github.repository == 'novemberfiveco/skidder-typescript' && github.ref == 'refs/heads/master'
     name: 'Publish'
     runs-on: ubuntu-latest
     steps:
