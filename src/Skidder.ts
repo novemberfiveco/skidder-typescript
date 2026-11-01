@@ -43,7 +43,7 @@ class Skidder {
   }
 
   removeServiceWithId(serviceId: string): void {
-    this.services.filter(s => s.id !== serviceId);
+    this.services = this.services.filter(s => s.id !== serviceId);
   }
 
   adjustLevel(logLevel: SkidderLogLevel, serviceId: string): void {
