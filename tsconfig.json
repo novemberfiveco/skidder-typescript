@@ -1,21 +1,17 @@
 {
   "compilerOptions": {
-    "baseUrl": "src",
-    "target": "es6",
-    "lib": ["esnext"],
-    "allowJs": false,
-    "esModuleInterop": true,
-    "allowSyntheticDefaultImports": true,
+    "target": "es2020",
+    "lib": ["es2020", "dom"],
+    "module": "preserve",
+    "moduleResolution": "bundler",
     "strict": true,
-    "forceConsistentCasingInFileNames": true,
-    "module": "esnext",
-    "moduleResolution": "node",
-    "resolveJsonModule": true,
-    "isolatedModules": true,
-    "jsx": "preserve",
     "noImplicitAny": true,
-    "declarationDir": "dist/types",
-    "declaration": true
+    "forceConsistentCasingInFileNames": true,
+    "isolatedModules": true,
+    // Lets tsdown emit .d.ts files with oxc instead of the experimental TypeScript 7 API.
+    "isolatedDeclarations": true,
+    "declaration": true,
+    "noEmit": true
   },
   "include": ["src"]
 }

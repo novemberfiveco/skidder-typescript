@@ -16,19 +16,19 @@ class Skidder {
 
   // Public
   // Setters & Getters
-  setLogLevel(level: SkidderLogLevel) {
+  setLogLevel(level: SkidderLogLevel): void {
     this.logLevel = level;
   }
 
-  setMetaDataRecord(key: MetaDataKey, value: string) {
+  setMetaDataRecord(key: MetaDataKey, value: string): void {
     this.metaData[key] = value;
   }
 
-  removeMetaDataRecord(key: MetaDataKey) {
+  removeMetaDataRecord(key: MetaDataKey): void {
     delete this.metaData[key];
   }
 
-  setGlobalData(key: string, value?: unknown) {
+  setGlobalData(key: string, value?: unknown): void {
     if (value) {
       this.globalData[key] = value;
     } else {
@@ -36,17 +36,17 @@ class Skidder {
     }
   }
 
-  addService(service: SkidderService) {
+  addService(service: SkidderService): void {
     if (!this.services.find(s => s.id === service.id)) {
       this.services.push(service);
     }
   }
 
-  removeServiceWithId(serviceId: string) {
+  removeServiceWithId(serviceId: string): void {
     this.services.filter(s => s.id !== serviceId);
   }
 
-  adjustLevel(logLevel: SkidderLogLevel, serviceId: string) {
+  adjustLevel(logLevel: SkidderLogLevel, serviceId: string): void {
     this.services.forEach(service => {
       if (service.id === serviceId) {
         service.logLevel = logLevel;
@@ -87,7 +87,7 @@ class Skidder {
   }
 }
 
-const skidder = new Skidder();
+const skidder: Skidder = new Skidder();
 
 export default skidder;
 
