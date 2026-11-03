@@ -1,5 +1,13 @@
 
 
+## [1.1.0](https://github.com/novemberfiveco/skidder-typescript/compare/1.0.4...1.1.0) (2026-11-03)
+
+
+### Bug Fixes
+
+* remove the service in removeServiceWithId ([ad081f8](https://github.com/novemberfiveco/skidder-typescript/commit/ad081f8e7395091dfb9d6849379a343c83b94a0b))
+* ship types for bundler and nodenext resolution, and a working CommonJS build ([63a8acc](https://github.com/novemberfiveco/skidder-typescript/commit/63a8acc5395ed21a6aa8802ab2b1bea5b2209210))
+
 ### [1.0.4](https://github.com/novemberfiveco/skidder-typescript/compare/1.0.3...1.0.4) (2023-11-07)
 
 ### [1.0.3](https://github.com/novemberfiveco/skidder-typescript/compare/1.0.2...1.0.3) (2023-11-07)
